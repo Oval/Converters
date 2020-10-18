@@ -11,5 +11,9 @@ public class main {
 		EpochConverter.INSTANCE.DateToEpoch("2014/18/08 18:52:21");
 		//Example
 		TextCapitalizationConverter.INSTANCE.TextCapitalizationChanger("random", "This is just an example!");
+		//Example normal text to Caesar
+		CaesarCipher.INSTANCE.normalToCaesar("This is a text", 15);
+		//Example Caeser text to normal
+		CaesarCipher.INSTANCE.caesarToNormal("iwxh xh p itmi", 15);
 	}
 }
